@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Chat With GPT",
+  "version": "1.0",
+  "description": "Interface to chat with ChatGPT",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "speechRecognition",
+    "audioCapture",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "index.html"
+  }
+}

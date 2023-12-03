@@ -1,0 +1,46 @@
+:root{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  width: 500px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.key-container {
+  display: flex;
+  gap: 10px;
+}
+
+.key-container > input {
+  width: 300px;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+}
+
+.key-container > button {
+  color: #3590E5;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+
